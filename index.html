@@ -1,0 +1,109 @@
+<html>
+    <head>
+        <style>
+            .page{
+                height:750px;
+                width: 650px;
+                background-color:moccasin;
+                align-content: center; 
+                margin: auto;
+                position: relative;
+            }
+            .rect{
+                height: 650px;
+                width: 500px;
+                border-style:solid;
+                border-color: dimgray;
+                /* align-content: center; */
+                /* for vertical and horizontal center alignment */
+                position:absolute;
+                top:50%;
+                left:50%;
+                transform: translate(-50%,-50%); 
+                               /* Shadow effect */
+                box-shadow: 0 15px 5px gray;
+            }
+            .box{
+                width: 450px;
+                height: 400px;
+                align-content: center;
+                color:blue;
+                border-color: blue;
+                border: 20px;
+                top:50%;
+                position: relative;
+                transform: translateY(-57%);
+                
+            }            
+            .box1{
+                width: 300px;
+                height: 300px;
+                align-content: center;
+                color: crimson;
+                border-color: crimson;
+                border: 20px;
+                top:50%;
+                position: absolute;
+                transform: translateY(-57%);
+                right:0;
+            }
+            #Leftsidedbox{
+                border-radius: 20px;
+                background-color: moccasin;
+                /* box-shadow: 5px 5px 5px 5px; */
+                border-top:40px solid;
+                border-left:40px solid;
+                border-bottom:40px solid ; 
+            }
+            #Rightsidebox{
+                border-radius: 20px;
+                background-color: moccasin;
+                /* box-shadow: 5px 5px 5px 5px; */
+                border-top:40px solid;
+                border-right:40px solid;
+                border-bottom:40px solid ;
+            }
+            p{
+                font-size:x-large;
+                color:darkslategrey;
+                word-wrap:break-word;
+                position: absolute;
+                left:0;
+                top:70%;
+                transform: translateY(-60%);
+            }
+            .endText{
+                color:darkslategrey;
+                font-size: x-large;
+                bottom:10%;
+                position: absolute;
+                left:55%;
+            }
+            .subtext{
+                word-wrap:break-word;
+                color:darkslategrey;
+                font-size:x-small;
+                bottom:5%;
+                position: absolute;
+                left:55%;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="page">
+            <div class="rect">
+                <div id="Leftsidedbox" class="box">                    
+                </div>
+                <div id="Rightsidebox" class="box1">
+                   <p>esthetique industrielle en France</p>
+                </div>
+                <div class="endText">
+                     Kunstgewerbemuseum zurich
+                </div>
+                <div class="subtext">
+                    nbjdsfhreyre wehbryawerewr fhbweuryawetrawer kjhaiftaeirywaer nfaegrertaefhsdn feajytaeuryregd fhjegr7ae6rtawer aejfehagfiafyae
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
